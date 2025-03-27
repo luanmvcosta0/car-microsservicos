@@ -10,7 +10,7 @@ public interface CarPostService {
 
     void newPostDetails(CarPostDto carPostDto);
 
-    List<CarPostDto> getCarSale();
+    List<CarPostDto> getCarSales();
 
     void changeCarSale(CarPostDto carPostDto, Long postId);
 
